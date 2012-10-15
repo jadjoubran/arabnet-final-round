@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.floatLeft{
+	float: left;
+}
+.pointer{
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+}
+
+
+#playlists, #track_list, #player{
+	width: 350px;
+	height: 500px;
+	border:1px solid black;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#player{
+	margin-right: 0;
+}
+
+
+#new_playlist{
+	position: absolute;
+	top: 530px;
+	left: 20px;
+}
+
+.edit_playlist{
+	width: 30px;
+	border-right: 1px solid black;
+}
+
+.delete_playlist{
+	width: 45px;
+	border-right: 1px solid black;
+	padding-left: 5px;
+}
+
+.playlist_name{
+	padding-left: 5px;
+}
+
+#search{
+	width: 1100;
+	height: 600px;
+	border:1px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -550px;
+	margin-top: -300px;
+	display: none;
+	background-color: white;
+}
+
+.box{
+	width: 150;
+	height: 150px;
+	border: 1px solid red;
+	padding: 20px;
+	margin-right: 20px;
+	float: left;
+}
+
+.playlist_up,.playlist_down{width:20px;padding-left:5px;border-right:1px solid black;}
+
+.playlist_down{width:40px;}
